@@ -1,0 +1,218 @@
+/* Style For Section What People Says*/
+.what-people-says {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.what-people-says .comments-block {
+    display: flex;
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.what-people-says .comments-block .what-people-says-cols-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-people-says .comments-block .what-people-says-cols-parent .inner-what-people-says {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.what-people-says .inner-what-people-says .typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    text-align: center;
+}
+
+.what-people-says .inner-what-people-says .typography .sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #291659;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #9469ff;
+    border-radius: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.05)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) -webkit-box-shadow;
+    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) -webkit-box-shadow;
+    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow, 0.45s cubic-bezier(0.6, 0.6, 0, 1) -webkit-box-shadow;
+}
+
+.what-people-says .inner-what-people-says .typography .title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #fff;
+}
+
+.what-people-says .inner-what-people-says .typography .description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #8D8B9D;
+    width: 80%;
+}
+
+.what-people-says-cols-parent {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.what-people-says-cols-parent .item {
+    border: 3px solid #191727;
+    border-radius: 19px;
+    max-width: 350px;
+    padding: 25px;
+    -webkit-box-shadow: 0px -3px 10px 0px #00000040 inset;
+    box-shadow: 0px -3px 10px 0px #00000040 inset;
+    background: linear-gradient(180deg, #241a35 -11.11%, #120528 100%);
+}
+
+.what-people-says-cols-parent .item .inner-item {
+    height: auto;
+}
+
+.what-people-says-cols-parent .item .inner-item .top-of-item {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.what-people-says-cols-parent .item .inner-item .top-of-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.what-people-says-cols-parent .item .inner-item .top-of-item .item-typography {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-people-says-cols-parent .item .inner-item .divider {
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    border-radius: inherit;
+    padding: 1px;
+    z-index: -1;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.12) 49.48%, rgba(255, 255, 255, 0) 100%);
+}
+
+.what-people-says-cols-parent .item .inner-item .bottom-typography {
+    margin-top: 20px;
+}
+
+/* Swiper Slider What Peoples Says For Mobile */
+
+.swiper-what-people-says .swiper-container .swiper-wrapper {
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item {
+    border: 3px solid #191727;
+    border-radius: 19px;
+    max-width: 80%;
+    padding: 25px;
+    -webkit-box-shadow: 0px -3px 10px 0px #00000040 inset;
+    box-shadow: 0px -3px 10px 0px #00000040 inset;
+    background: linear-gradient(180deg, #241a35 -11.11%, #120528 100%);
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item {
+    height: auto;
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item .top-of-item {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item .top-of-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item .top-of-item .item-typography {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item .divider {
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    border-radius: inherit;
+    padding: 1px;
+    z-index: -1;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.12) 49.48%, rgba(255, 255, 255, 0) 100%);
+}
+
+.swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide .item .inner-item .bottom-typography {
+    margin-top: 20px;
+}
+
+/*Media Rules*/
+@media (max-width:1094px) {
+    .what-people-says .inner-what-people-says .comments-block {
+        padding: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .swiper-what-people-says {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .what-people-says {
+        display: none;
+    }
+
+    .swiper-what-people-says {
+        margin-top: 30px;
+    }
+
+    .swiper-what-people-says .swiper-container .swiper-wrapper {
+        justify-content: unset;
+    }
+
+    .swiper-what-people-says .swiper-container .swiper-wrapper .swiper-slide {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-right: 0px !important;
+    }
+}
